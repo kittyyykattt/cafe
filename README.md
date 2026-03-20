@@ -1,4 +1,7 @@
-# Cafe Template (Reusable)
+# Cafe Template 
+
+<img src="cafe-template-hero.png" alt="Home Page of Template" width="900"/>
+
 
 Production-ready reusable website template for cafes, bakeries, dessert shops, and other local businesses.
 
