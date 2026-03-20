@@ -4,6 +4,7 @@ import { Instrument_Sans, Playfair_Display, Roboto_Mono } from "next/font/google
 import "./globals.css";
 import { activeTheme, siteConfig } from "@/data/siteConfig";
 import { CustomCursor } from "@/components/animation/custom-cursor";
+import { DesignWatermark } from "@/components/DesignWatermark";
 
 const displayFont = Playfair_Display({
   subsets: ["latin"],
@@ -55,6 +56,7 @@ export default function RootLayout({
         }
       >
         <CustomCursor />
+        <DesignWatermark />
         {children}
       </body>
     </html>

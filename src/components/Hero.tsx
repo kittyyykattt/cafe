@@ -113,13 +113,9 @@ export function Hero({
             </Link>
           </motion.div>
 
-          <motion.div
-            animate={{ rotate: 360 }}
-            transition={{ repeat: Number.POSITIVE_INFINITY, duration: 12, ease: "linear" }}
-            className="absolute -right-2 top-4 hidden h-28 w-28 items-center justify-center rounded-full border border-[var(--warm-fog)] text-center text-[0.56rem] uppercase tracking-[0.2em] text-[var(--coffee)] md:flex"
-          >
+          <div className="absolute -right-2 top-4 hidden h-28 w-28 items-center justify-center rounded-full border border-[var(--warm-fog)]/80 text-center text-[0.56rem] uppercase tracking-[0.2em] text-[#EDE7DC] md:flex">
             Est. {estYear} · Specialty Coffee · Made with care ·
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>
